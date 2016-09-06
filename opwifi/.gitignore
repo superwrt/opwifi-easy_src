@@ -1,0 +1,11 @@
+/vendor
+/node_modules
+/public
+/bootstrap
+/tests
+/artisan
+/readme.md
+Homestead.yaml
+Homestead.json
+.env
+
