@@ -241,6 +241,9 @@ class DeviceServController extends Controller {
 					"set" => gmdate("Y-m-d H:i:s",time()),
 				];
 		}
+		if (isset($req['seq'])) {
+			$rep['seq'] = $req['seq'];
+		}
 
 		$this->appendOperation($req, $rep);
 		$this->appendEncrypted($req, $rep);
